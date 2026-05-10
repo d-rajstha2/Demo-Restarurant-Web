@@ -21,7 +21,7 @@ const About = () => {
             <FadeIn delay={0.2} direction="none">
               <div className="blob-radius overflow-hidden shadow-2xl aspect-square lg:aspect-[4/5] bg-surface-dark">
                 <img
-                  src="https://picsum.photos/seed/about-banner/800/1000"
+                  src="/image/interior.jpg"
                   alt="Traditional Cooking"
                   className="w-full h-full object-cover opacity-80"
                   referrerPolicy="no-referrer"
@@ -40,7 +40,7 @@ const About = () => {
              <div className="relative aspect-[4/5] max-w-[600px] mx-auto lg:mx-0">
                <FadeIn direction="up" className="absolute top-0 right-0 w-3/4 z-10 shadow-2xl overflow-hidden rounded-2xl">
                  <img
-                   src="https://picsum.photos/seed/old-kathmandu/800/1000"
+                   src="/image/back.png"
                    alt="Old Thamel"
                    className="w-full h-full object-cover"
                    referrerPolicy="no-referrer"
@@ -48,7 +48,7 @@ const About = () => {
                </FadeIn>
                <FadeIn direction="up" delay={0.2} className="absolute bottom-0 left-0 w-[55%] z-20 shadow-2xl overflow-hidden rounded-2xl p-1.5 bg-surface">
                  <img
-                   src="https://picsum.photos/seed/family-rec/600/800"
+                   src="/image/samay-baji.png"
                    alt="Family Recipe"
                    className="w-full h-full object-cover rounded-xl"
                    referrerPolicy="no-referrer"
@@ -104,7 +104,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24">
             {[
               { name: "Aama Kanchi", role: "Founding Mother", img: "https://i.pravatar.cc/300?u=aama" },
-              { name: "Rabin Shrestha", role: "Head Chef", img: "https://i.pravatar.cc/300?u=chefrabin" },
+              { name: "Rabin Shrestha", role: "Head Chef", img: "/image/staff.png" },
               { name: "Sita Gurung", role: "Sous Chef", img: "https://i.pravatar.cc/300?u=sous" },
             ].map((member, i) => (
               <FadeIn key={member.name} delay={i * 0.2} className="group text-center space-y-6">

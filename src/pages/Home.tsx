@@ -136,7 +136,7 @@ const Home = () => {
               </FadeIn>
               <FadeIn direction="up" delay={0.2} className="absolute bottom-0 right-0 w-[55%] z-20 shadow-2xl overflow-hidden rounded-2xl p-1.5 bg-bg">
                 <img
-                  src="https://picsum.photos/seed/cooking-1/600/800"
+                  src="/image/interior.jpg"
                   alt="Cooking Tradition"
                   className="w-full h-full object-cover rounded-xl"
                   referrerPolicy="no-referrer"
@@ -220,14 +220,14 @@ const Home = () => {
                 name: "Thakali Dal Bhat", 
                 category: "The Complete Meal", 
                 eyebrow: "Traditional", 
-                img: "/image/smaya baji.png",
+                img: "/image/samay-baji.png",
                 desc: "Fragrant rice, lentil soup, and mountain-grown greens."
               },
               { 
                 name: "Himalayan Thukpa", 
                 category: "Noodle Soup", 
                 eyebrow: "Seasonal", 
-                img: "/image/Thupka 🍜.jpg",
+                img: "/image/thukpa.jpg",
                 desc: "Warming noodle broth with garden-fresh herbs."
               },
             ].map((dish, idx) => (
@@ -305,7 +305,7 @@ const Home = () => {
               <FadeIn direction="right" className="relative group">
                 <div className="blob-radius overflow-hidden shadow-2xl aspect-square">
                   <img
-                    src="/image/smaya baji.png"
+                    src="/image/samay-baji.png"
                     alt="Featured Dish"
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"

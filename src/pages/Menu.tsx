@@ -134,7 +134,12 @@ const Menu = () => {
               >
                 <div className="blob-radius overflow-hidden shadow-2xl aspect-square border-8 border-surface p-4">
                   <img
-                    src={`https://picsum.photos/seed/menu-item-${activeCategory.toLowerCase()}-1/1000/1000`}
+                    src={
+                      activeCategory === "Starters" ? "/image/momo.jpg" :
+                      activeCategory === "Mains" ? "/image/samay-baji.png" :
+                      activeCategory === "Soups" ? "/image/thukpa.jpg" :
+                      `/image/interior.jpg`
+                    }
                     alt={activeCategory}
                     className="w-full h-full object-cover blob-radius"
                     referrerPolicy="no-referrer"

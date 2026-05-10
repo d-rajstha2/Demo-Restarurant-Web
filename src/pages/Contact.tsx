@@ -103,7 +103,7 @@ const Contact = () => {
               <div className="blob-radius overflow-hidden shadow-2xl h-full border-8 border-surface bg-gray-200">
                 {/* Visual placeholder for map */}
                  <div className="w-full h-full bg-cover bg-center flex items-center justify-center relative overflow-hidden" 
-                      style={{ backgroundImage: "url('https://picsum.photos/seed/ktm-map/800/1000')" }}>
+                      style={{ backgroundImage: "url('/image/back.png')" }}>
                     <div className="absolute inset-0 bg-accent/20 backdrop-blur-[2px]" />
                     <div className="relative z-10 bg-white p-6 rounded-2xl shadow-2xl border border-border-warm text-center space-y-3">
                        <MapPin className="mx-auto text-accent" size={32} />
