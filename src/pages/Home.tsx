@@ -128,7 +128,7 @@ const Home = () => {
             <div className="relative aspect-[4/5] max-w-[600px] mx-auto lg:mx-0">
               <FadeIn direction="up" className="absolute top-0 left-0 w-3/4 z-10 shadow-2xl overflow-hidden rounded-2xl">
                 <img
-                  src="/back.png"
+                  src="/image/back.png"
                   alt="Traditional Kitchen"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
